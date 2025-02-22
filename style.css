@@ -3,7 +3,7 @@
   
 /* max-width: 100px; */
 height: 40px;
-background-color: rgb(199, 188, 199);
+background-color: rgb(227, 223, 227);
 border: none;
 border-radius: 20px;
 }
@@ -17,3 +17,13 @@ background-color:  plum;
 border: 2px solid rgb(221, 155, 205);
 border-radius: 20px;
 }
+::placeholder{
+    color: black; 
+    opacity: 0.5;
+}
+@media (max-width: 438px) {
+   
+    
+    
+}
+
