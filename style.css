@@ -1,0 +1,19 @@
+/* input field */
+.input1{
+  
+/* max-width: 100px; */
+height: 40px;
+background-color: rgb(199, 188, 199);
+border: none;
+border-radius: 20px;
+}
+/* sign up button */
+.sign{
+
+padding: 7px;
+text-align: center;
+height: 40px;
+background-color:  plum;
+border: 2px solid rgb(221, 155, 205);
+border-radius: 20px;
+}
