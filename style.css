@@ -21,9 +21,17 @@ border-radius: 20px;
     color: black; 
     opacity: 0.5;
 }
+input:focus{
+    background-color:rgb(227, 223, 227) ;
+    outline: none;
+}
+/* #sign-in{
+    display: none;
+} */
 @media (max-width: 438px) {
    
     
     
 }
+
 
