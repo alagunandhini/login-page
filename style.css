@@ -13,8 +13,8 @@ border-radius: 20px;
 padding: 7px;
 text-align: center;
 height: 40px;
-background-color:  plum;
-border: 2px solid rgb(221, 155, 205);
+/* background-color:  plum; */
+border: none;
 border-radius: 20px;
 }
 ::placeholder{
@@ -25,9 +25,46 @@ input:focus{
     background-color:rgb(227, 223, 227) ;
     outline: none;
 }
-/* #sign-in{
-    display: none;
+
+body.purple-theme{
+    background-color: plum;
+}
+body.pink-theme{
+background-color: pink;
+}
+.purple-theme.sign{
+    background-color: plum;
+}
+.pink-theme.sign{
+background-color: pink;
+}
+.purple-theme.btn{
+    background-color: plum;
+}
+.pink-theme.btn{
+background-color: pink;
+}
+
+/* body, .sign {
+    transition: background-color 0.5s ease;
 } */
+#img-card{
+    transition: transform 0.5s ease; 
+    transform: scale(1);
+
+}
+button, body, .sign {
+    transition: background-color 0.5s ease, color 0.5s ease;
+}
+.pink-theme.btn:hover{
+    background-color: rgb(169, 165, 165);
+}
+.purple-theme.btn:hover{
+    background-color: rgb(227, 223, 227)
+}
+
+
+
 @media (max-width: 438px) {
    
     
