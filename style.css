@@ -16,6 +16,7 @@ height: 40px;
 /* background-color:  plum; */
 border: none;
 border-radius: 20px;
+box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
 }
 ::placeholder{
     color: black; 
@@ -25,7 +26,7 @@ input:focus{
     background-color:rgb(227, 223, 227) ;
     outline: none;
 }
-
+/* body theme change */
 body.purple-theme{
     background-color: plum;
 }
@@ -34,10 +35,22 @@ background-color: pink;
 }
 .purple-theme.sign{
     background-color: plum;
+    
 }
 .pink-theme.sign{
 background-color: pink;
 }
+
+.purple-theme.sign:hover{
+    background-color: rgb(241, 182, 241);
+    transition: 0.2s ease;
+    
+}
+.pink-theme.sign:hover{
+background-color: rgb(250, 206, 213);
+}
+
+/* button theme change */
 .purple-theme.btn{
     background-color: plum;
 }
@@ -63,8 +76,27 @@ button, body, .sign {
     background-color: rgb(227, 223, 227)
 }
 
+.error{
+    color: rgb(251, 14, 14);
+    font-size: 13px;
+    text-align: center;
+}
+#welcometext{
+    color: rgb(137, 136, 137);
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
 
-
+}
+#welcome img{
+    width: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+/* #ProfileTitle{
+    
+} */
 @media (max-width: 438px) {
    
     
